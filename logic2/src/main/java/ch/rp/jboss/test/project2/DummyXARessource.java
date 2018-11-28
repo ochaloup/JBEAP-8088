@@ -21,7 +21,7 @@ public class DummyXARessource implements XAResource {
     @Override
     public void end(Xid arg0, int arg1) throws XAException {
         System.out.println("end " + name + " xid=" + arg0);
-        new RuntimeException().printStackTrace();
+        // new RuntimeException().printStackTrace();
     }
 
     @Override
@@ -66,7 +66,7 @@ public class DummyXARessource implements XAResource {
     @Override
     public void start(Xid arg0, int arg1) throws XAException {
         System.out.println("start " + name + " xid=" + arg0);
-        new RuntimeException().printStackTrace();
+        // new RuntimeException().printStackTrace();
     }
 
 }

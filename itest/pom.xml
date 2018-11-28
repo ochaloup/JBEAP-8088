@@ -77,7 +77,9 @@
         <artifactId>wildfly-maven-plugin</artifactId>
         <version>1.1.0.Beta1</version>
         <configuration>
-          <artifact>org.wildfly:wildfly-dist:${version.org.wildfly}:zip</artifact>
+          <!--<artifact>org.wildfly:wildfly-dist:${version.org.wildfly}:zip</artifact>-->
+          <!--<jboss-home>/home/ochaloup/jboss/jboss-eap-7.2.0.GA.CR1</jboss-home>-->
+          <jboss-home>/home/ochaloup/jboss/wildfly-11.0.0.Final/</jboss-home>
         </configuration>
         <executions>
           <execution>
